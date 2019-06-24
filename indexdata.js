@@ -1,6 +1,13 @@
 var indexdata = 
 [
 
+       
+    { text: 'Search', isexpand: true, children: [
+		{ url: "https://npms.io", text: "NPMS" },
+		{ url: "https://esironal.oschina.io/my-repos/", text: "Repos & Likes" },
+		{ url: "https://esironal.oschina.io/hubsearch/", text: "Hub Search" } 
+	]
+    }, 
     
     { text: 'Tools', isexpand: true, children: [
 		{url:"https://esironal.github.io/GitHub_Code_Editor/#!from=github&owner=esironal&repo=ligerUI-base",text:"GitHub_Code"},
@@ -24,13 +31,24 @@ var indexdata =
 		{ url: "https://leanote.com/note", text: "Leanote" } 
 	]
     },
-    
-    { text: 'Search', isexpand: false, children: [
-		{ url: "https://npms.io", text: "NPMS" },
-		{ url: "https://esironal.oschina.io/my-repos/", text: "Repos & Likes" },
-		{ url: "https://esironal.oschina.io/hubsearch/", text: "Hub Search" } 
+
+    { text: 'Local', isexpand: true, children: [
+		{url:"http://0.0.0.0:9898",text:"Console"},
+		{url:"http://0.0.0.0:1880",text:"Node-RED"},
+		{url:"http://0.0.0.0:3636/#/home/esironal/bin/kode",text:"Theia"},
+		{url:"http://0.0.0.0:1977",text:"nfshare"},
+		{url:"http://0.0.0.0:6460/index.php?editor/edit#filename=/mnt/Lan-Dev/Gitload/ligerUI-base/indexdata.js",text:"Edit Links"},
+		{url:"http://0.0.0.0:6460/index.php?editor/edit#filename=/mnt/Lan-Dev/Gitload/ligerUI-base/index.html",text:"Edit Index.htm"},
+		{url:"http://0.0.0.0:6460/index.php?explorer&type=iframe&path=/mnt/Lan-Dev/Gitload/ligerUI-base/",text:"Explorer"}
 	]
-    },
+    }, 
+    { text: 'Notes', isexpand: false, children: [
+		{url:"https://glot.io/users/esironal/snippets", text: "Snippets"},
+		{url:"https://etherpad.wikimedia.org/p/esironal-notes",text:"esironal-notes"},
+		{url:"https://codeshare.io/5zqZJE",text:"Notes-codeshare"},
+		{url:"http://socrates.io/#lk4o9gz",text:"socrates-lk4o9gz"}
+	]
+    }, 
     
     { text: 'Libs',isexpand:false, children: [ 
 		{url:"https://codetogo.io/all",text:"codetogo.io"},
@@ -59,23 +77,6 @@ var indexdata =
     },
     
 
-    { text: 'Local', isexpand: true, children: [
-		{url:"http://0.0.0.0:9898",text:"Console"},
-		{url:"http://0.0.0.0:1880",text:"Node-RED"},
-		{url:"http://0.0.0.0:3636/#/home/esironal/bin/kode",text:"Theia"},
-		{url:"http://0.0.0.0:1977",text:"nfshare"},
-		{url:"http://0.0.0.0:6460/index.php?editor/edit#filename=/mnt/Lan-Dev/Gitload/ligerUI-base/indexdata.js",text:"Edit Links"},
-		{url:"http://0.0.0.0:6460/index.php?editor/edit#filename=/mnt/Lan-Dev/Gitload/ligerUI-base/index.html",text:"Edit Index.htm"},
-		{url:"http://0.0.0.0:6460/index.php?explorer&type=iframe&path=/mnt/Lan-Dev/Gitload/ligerUI-base/",text:"Explorer"}
-	]
-    }, 
-    { text: 'Notes', isexpand: false, children: [
-		{url:"https://glot.io/users/esironal/snippets", text: "Snippets"},
-		{url:"https://etherpad.wikimedia.org/p/esironal-notes",text:"esironal-notes"},
-		{url:"https://codeshare.io/5zqZJE",text:"Notes-codeshare"},
-		{url:"http://socrates.io/#lk4o9gz",text:"socrates-lk4o9gz"}
-	]
-    }, 
     { text: 'Dev',isexpand:false, children: [ 
 		{url:"ckeditor-4-cdn.html",text:"Ckeditor"},
 		{url:"http://esironal.github.io/apps/code-sketch/",text:"Code Sketch"},
