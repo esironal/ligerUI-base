@@ -7,6 +7,7 @@ var indexdata =
 		{url:"https://www.sharedrop.io/",text:"sharedrop.io"},
 		{url:"https://nt1m.github.io/media-player/",text:"media-player"},
 		{url:"https://webassembly.studio/",text:"Webassembly"},
+        {url:"https://mbebenita.github.io/WasmExplorer/",text:"Wasm Explorer"},
 		{url:"https://sonnylab.itch.io/bibleify",text:"Bibleify"},
 		{url:"https://i.kinja-img.com/gawker-media/image/upload/s--vREjlqRE--/c_scale,f_auto,fl_progressive,q_80,w_800/gqiwsuivaxuta2cspi3x.png",text:"Roku Secret"},
 		{url:"demos/dialog/win7.htm",text:"Desk"},
