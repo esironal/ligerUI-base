@@ -79,7 +79,7 @@ var indexdata =
 
     { text: 'Dev',isexpand:false, children: [ 
 		{url:"ckeditor-4-cdn.html",text:"Ckeditor"},
-		{url:"http://esironal.github.io/apps/code-sketch/",text:"Code Sketch"},
+		{url:"https://esironal.github.io/apps/code-sketch/",text:"Code Sketch"},
 		{url:"https://graphql.github.io/swapi-graphql/",text:"GraphiQL"},
 		{url:"https://esironal.github.io/npmgraph/",text:"NPM Graph"},
 		{url:"https://astexplorer.net",text:"Ast Explorer"},
@@ -98,7 +98,7 @@ var indexdata =
 		{url:"https://hashbase.io/",text:"hashbase.io"},
 		{url:"https://exlcode.com/ide",text:"Exlcode IDE"},
 		{url:"https://esironal.github.io/Editor-3",text:"Editor 3"},
-		{url:"http://esironal.github.io/angular fiddle",text:"angular fiddle"},
+		{url:"https://esironal.github.io/angular fiddle",text:"angular fiddle"},
 		{url:"https://esironal.github.io/JSONedit",text:"JSONedit"},
 		{url:"https://esironal.github.io/Bootstrap-Form-Builder",text:"Form Builder"},
 		{url:"demos/dialog/win7.htm",text:"Desk"},
