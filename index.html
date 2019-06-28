@@ -11,6 +11,23 @@
     <script src="lib/jquery.cookie.js"></script>
     <script src="lib/json2.js"></script>
     <script src="indexdata.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+        //The taskbar is shown at the bottom
+        $.ligerui.win.top = false;
+
+        var wincount = 0;
+        function title() {
+            return 'Exlcode - ligerUI-base' + ++wincount;
+        }
+        function f_open1() {
+            $.ligerDialog.open({ height: 565, url: 'https://exlcode.com/ide/?repo=esironal/ligerUI-base', width: 900, showMax: true, showToggle: true, showMin: true, isResize: true, modal: false, title: title(), slide: false }); 
+        } 
+    </script>
+
+
+
         <script type="text/javascript">
  
             var tab = null;
@@ -320,7 +337,7 @@
     -->    
         
         <span class="space">|</span>
-        
+        <a href="javascript:onclick="f_open1()"><img class="icon" src="https://esironal.github.io/App-Icons/webapps/EXLcode.png"/></a>
                 <span class="space">|</span>
         
     </div> 
