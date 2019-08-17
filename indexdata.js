@@ -9,6 +9,15 @@ var indexdata =
 	]
     }, 
     
+    { text: 'Save', isexpand: true, children: [
+		{ url: "https://web.gistoapp.com/#/", text: "Gisto" },
+		{ url:"https://esironal.github.io/GitHub_Code_Editor",text:"GitHub Code Editor"},
+		{ url: "https://app.raindrop.io/?#/collection/0", text: "Raindrop" },
+		{ url: "http://esironal.github.io/apps/simple/", text: "Simplenote" },
+		{ url: "https://leanote.com/note", text: "Leanote" } 
+	]
+    },    
+    
 { text: 'Notes', isexpand: false, children: [
 		{url:"https://glot.io/users/esironal/snippets", text: "Snippets"},
 		{url:"https://codeshare.io/2BQYbd",text:"Local Notes"},
@@ -19,31 +28,42 @@ var indexdata =
     }, 
     
 
-
-//  {url:"http://emscripten.org/",text:"Emscripten"},
-//  {url:"http://emscripten.org/",text:"Emscripten"},
-//  {url:"http://emscripten.org/",text:"Emscripten"},
-//  {url:"http://emscripten.org/",text:"Emscripten"},
-//  {url:"http://emscripten.org/",text:"Emscripten"},
-//  {url:"http://emscripten.org/",text:"Emscripten"},
-
-
-
-	{ text: 'Libraries', isexpand: false, children: [
-		
-		{url:"https://www.jsdelivr.com",text:"Jsdelivr"},
-		{url:"https://devdocs.io/",text:"devdocs.io"},
-		{url:"https://www.webcomponents.org/",text:"WebComponents"},
-		{url:"https://rsuitejs.com/en/guide/introduction", text: "Rsuite Js"},
-		{url:"https://nodejs.org/docs/latest-v8.x/api/index.html",text:"nodejs Api"},
-		{url:"http://emscripten.org/",text:"Emscripten"},
-		{url:"https://esironal.github.io/microjs",text:"Microjs"},
-		{url:"https://esironal.github.io/string.js",text:"string-js"},
-		{url:"http://ksylvest.github.io/jquery-gridly/",text:"Gridly"},
-		{url:"https://vuetifyjs.com/en/getting-started/quick-start",text:"vuetifyjs"},
-		{url:"http://esironal.github.com/git-guide",text:"Git Guide"}
+    { text: 'Local', isexpand: true, children: [
+		{url:"http://0.0.0.0:9898",text:"Console"},
+		{url:"http://0.0.0.0:1880",text:"Node-RED"},
+		{url:"http://0.0.0.0:3636/#/home/esironal/bin/kode",text:"Theia"},
+		{url:"http://0.0.0.0:1977",text:"nfshare"},
+		{url:"http://0.0.0.0:6460/index.php?editor/edit#filename=/mnt/Lan-Dev/Gitload/ligerUI-base/indexdata.js",text:"Edit Links"},
+		{url:"http://0.0.0.0:6460/index.php?editor/edit#filename=/mnt/Lan-Dev/Gitload/ligerUI-base/index.html",text:"Edit Index.htm"},
+		{url:"http://0.0.0.0:6460/index.php?explorer&type=iframe&path=/mnt/Lan-Dev/Gitload/ligerUI-base/",text:"Explorer"}
 	]
-    }, 
+    },
+    
+    
+
+//  {url:"http://emscripten.org/",text:"Emscripten"},
+//  {url:"http://emscripten.org/",text:"Emscripten"},
+//  {url:"http://emscripten.org/",text:"Emscripten"},
+//  {url:"http://emscripten.org/",text:"Emscripten"},
+//  {url:"http://emscripten.org/",text:"Emscripten"},
+//  {url:"http://emscripten.org/",text:"Emscripten"},
+
+
+{ text: 'Tools', isexpand: true, children: [
+		{url:"https://esironal.github.io/GitHub_Code_Editor/#!from=github&owner=esironal&repo=ligerUI-base",text:"GitHub_Code"},
+		{url:"https://www.sharedrop.io/",text:"sharedrop.io"},
+        {url:"https://esironal.github.io/c9-core-2/",text:"cloud9"},
+		{url:"https://nt1m.github.io/media-player/",text:"media-player"},
+		{url:"https://webassembly.studio/",text:"Webassembly"},
+        {url:"https://mbebenita.github.io/WasmExplorer/",text:"Wasm Explorer"},
+		{url:"https://sonnylab.itch.io/bibleify",text:"Bibleify"},
+		{url:"https://i.kinja-img.com/gawker-media/image/upload/s--vREjlqRE--/c_scale,f_auto,fl_progressive,q_80,w_800/gqiwsuivaxuta2cspi3x.png",text:"Roku Secret"},
+		{url:"demos/dialog/win7.htm",text:"Desk"},
+		{url:"https://runpkg.com/system-designer",text:"runpkg"},
+		{url:"https://unpkg.com/system-designer/dist/index.html",text:"System Designer"} 
+	]
+    },
+	
     //  {url:"http://emscripten.org/",text:"Emscripten"},
 //  {url:"http://emscripten.org/",text:"Emscripten"},
 //  {url:"http://emscripten.org/",text:"Emscripten"},
@@ -53,7 +73,32 @@ var indexdata =
 
 
 
-
+{ text: 'Dev',isexpand:false, children: [ 
+		{url:"ckeditor-4-cdn.html",text:"Ckeditor"},
+		{url:"https://esironal.github.io/apps/code-sketch/",text:"Code Sketch"},
+		{url:"https://graphql.github.io/swapi-graphql/",text:"GraphiQL"},
+		{url:"https://esironal.github.io/npmgraph/",text:"NPM Graph"},
+		{url:"https://astexplorer.net",text:"Ast Explorer"},
+		{url:"https://esironal.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html",text:"JS flowchart"},
+		{url:"https://esironal.github.io/apps/codemagic/",text:"CodeMagic"},
+		{url:"http://jsonviewer.stack.hu",text:"Json Viewer"},
+		{url:"https://webassembly.studio/",text:"Webassembly"},
+		{url:"https://multifiddle.ml",text:"Multi-Fiddle"},
+		{url:"https://codepen.io/esironal/pens/public/",text:"Codepen"},
+		{url:"https://liveweave.com/user/dashboard.php?page=1&type=list",text:"Liveweave Dashboard"},
+		{url:"https://stackblitz.com",text:"stackblitz"},
+		{url:"https://codesandbox.io/u/esironal/sandboxes",text:"Codesandbox-Dashboard"},
+		{url:"https://kangax.github.io/html-minifier/",text:"html-minifier"},
+		{url:"http://resizeimage.net/",text:"resizeimage"},
+		{url:"https://hashbase.io/",text:"hashbase.io"},
+		{url:"https://esironal.github.io/Editor-3",text:"Editor 3"},
+		{url:"https://esironal.github.io/angular fiddle",text:"angular fiddle"},
+		{url:"https://esironal.github.io/JSONedit",text:"JSONedit"},
+		{url:"https://esironal.github.io/Bootstrap-Form-Builder",text:"Form Builder"},
+		{url:"demos/dialog/win7.htm",text:"Desk"},
+		{url:"lab/formdesign/index.htm",text:"Form Design"}
+	]
+    },
 
 
 
@@ -104,68 +149,28 @@ var indexdata =
     
 
 
-    { text: 'Tools', isexpand: true, children: [
-		{url:"https://esironal.github.io/GitHub_Code_Editor/#!from=github&owner=esironal&repo=ligerUI-base",text:"GitHub_Code"},
-		{url:"https://www.sharedrop.io/",text:"sharedrop.io"},
-        {url:"https://esironal.github.io/c9-core-2/",text:"cloud9"},
-		{url:"https://nt1m.github.io/media-player/",text:"media-player"},
-		{url:"https://webassembly.studio/",text:"Webassembly"},
-        {url:"https://mbebenita.github.io/WasmExplorer/",text:"Wasm Explorer"},
-		{url:"https://sonnylab.itch.io/bibleify",text:"Bibleify"},
-		{url:"https://i.kinja-img.com/gawker-media/image/upload/s--vREjlqRE--/c_scale,f_auto,fl_progressive,q_80,w_800/gqiwsuivaxuta2cspi3x.png",text:"Roku Secret"},
-		{url:"demos/dialog/win7.htm",text:"Desk"},
-		{url:"https://runpkg.com/system-designer",text:"runpkg"},
-		{url:"https://unpkg.com/system-designer/dist/index.html",text:"System Designer"} 
-	]
-    },
     
-    { text: 'Save', isexpand: true, children: [
-		{ url: "https://web.gistoapp.com/#/", text: "Gisto" },
-		{ url:"apps/GitHub_Code_Editor/index.html",text:"GitHub Code Editor"},
-		{ url: "https://app.raindrop.io/?#/collection/0", text: "Raindrop" },
-		{ url: "http://esironal.github.io/apps/simple/", text: "Simplenote" },
-		{ url: "https://leanote.com/note", text: "Leanote" } 
-	]
-    },
+    
 
-    { text: 'Local', isexpand: true, children: [
-		{url:"http://0.0.0.0:9898",text:"Console"},
-		{url:"http://0.0.0.0:1880",text:"Node-RED"},
-		{url:"http://0.0.0.0:3636/#/home/esironal/bin/kode",text:"Theia"},
-		{url:"http://0.0.0.0:1977",text:"nfshare"},
-		{url:"http://0.0.0.0:6460/index.php?editor/edit#filename=/mnt/Lan-Dev/Gitload/ligerUI-base/indexdata.js",text:"Edit Links"},
-		{url:"http://0.0.0.0:6460/index.php?editor/edit#filename=/mnt/Lan-Dev/Gitload/ligerUI-base/index.html",text:"Edit Index.htm"},
-		{url:"http://0.0.0.0:6460/index.php?explorer&type=iframe&path=/mnt/Lan-Dev/Gitload/ligerUI-base/",text:"Explorer"}
+
+     { text: 'Libraries', isexpand: false, children: [
+		
+		{url:"https://www.jsdelivr.com",text:"Jsdelivr"},
+		{url:"https://devdocs.io/",text:"devdocs.io"},
+		{url:"https://www.webcomponents.org/",text:"WebComponents"},
+		{url:"https://rsuitejs.com/en/guide/introduction", text: "Rsuite Js"},
+		{url:"https://nodejs.org/docs/latest-v8.x/api/index.html",text:"nodejs Api"},
+		{url:"http://emscripten.org/",text:"Emscripten"},
+		{url:"https://esironal.github.io/microjs",text:"Microjs"},
+		{url:"https://esironal.github.io/string.js",text:"string-js"},
+		{url:"http://ksylvest.github.io/jquery-gridly/",text:"Gridly"},
+		{url:"https://vuetifyjs.com/en/getting-started/quick-start",text:"vuetifyjs"},
+		{url:"http://esironal.github.com/git-guide",text:"Git Guide"}
 	]
     }, 
     
     
-    { text: 'Dev',isexpand:false, children: [ 
-		{url:"ckeditor-4-cdn.html",text:"Ckeditor"},
-		{url:"https://esironal.github.io/apps/code-sketch/",text:"Code Sketch"},
-		{url:"https://graphql.github.io/swapi-graphql/",text:"GraphiQL"},
-		{url:"https://esironal.github.io/npmgraph/",text:"NPM Graph"},
-		{url:"https://astexplorer.net",text:"Ast Explorer"},
-		{url:"https://esironal.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html",text:"JS flowchart"},
-		{url:"https://esironal.github.io/apps/codemagic/",text:"CodeMagic"},
-		{url:"http://jsonviewer.stack.hu",text:"Json Viewer"},
-		{url:"https://webassembly.studio/",text:"Webassembly"},
-		{url:"https://multifiddle.ml",text:"Multi-Fiddle"},
-		{url:"https://codepen.io/esironal/pens/public/",text:"Codepen"},
-		{url:"https://liveweave.com/user/dashboard.php?page=1&type=list",text:"Liveweave Dashboard"},
-		{url:"https://stackblitz.com",text:"stackblitz"},
-		{url:"https://codesandbox.io/u/esironal/sandboxes",text:"Codesandbox-Dashboard"},
-		{url:"https://kangax.github.io/html-minifier/",text:"html-minifier"},
-		{url:"http://resizeimage.net/",text:"resizeimage"},
-		{url:"https://hashbase.io/",text:"hashbase.io"},
-		{url:"https://esironal.github.io/Editor-3",text:"Editor 3"},
-		{url:"https://esironal.github.io/angular fiddle",text:"angular fiddle"},
-		{url:"https://esironal.github.io/JSONedit",text:"JSONedit"},
-		{url:"https://esironal.github.io/Bootstrap-Form-Builder",text:"Form Builder"},
-		{url:"demos/dialog/win7.htm",text:"Desk"},
-		{url:"lab/formdesign/index.htm",text:"Form Design"}
-	]
-    },
+    
     
     
  
