@@ -50,10 +50,15 @@ var indexdata =
 
 
 { text: 'Tools', isexpand: true, children: [
+		{url:"https://esironal.github.io/apps/codemagic/",text:"CodeMagic"},
 		{url:"https://esironal.github.io/GitHub_Code_Editor/#!from=github&owner=esironal&repo=ligerUI-base",text:"GitHub_Code"},
 		{url:"https://www.sharedrop.io/",text:"sharedrop.io"},
         {url:"https://esironal.github.io/c9-core-2/",text:"cloud9"},
 		{url:"https://nt1m.github.io/media-player/",text:"media-player"},
+    		{url:"https://esironal.github.io/npmgraph/",text:"NPM Graph"},
+		{url:"https://astexplorer.net",text:"Ast Explorer"},
+		{url:"https://esironal.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html",text:"JS flowchart"},
+		{url:"http://jsonviewer.stack.hu",text:"Json Viewer"},
 		{url:"https://webassembly.studio/",text:"Webassembly"},
         {url:"https://mbebenita.github.io/WasmExplorer/",text:"Wasm Explorer"},
 		{url:"https://sonnylab.itch.io/bibleify",text:"Bibleify"},
@@ -71,19 +76,22 @@ var indexdata =
 //  {url:"http://emscripten.org/",text:"Emscripten"},
 //  {url:"http://emscripten.org/",text:"Emscripten"},
 
+    
+    
+    { text: 'IDEs', isexpand: false, children: [
+		{url:"https://exlcode.com/ide",text:"Exlcode IDE"},
+		{url:"https://playcode.io/online-html-editor",text:"PlayCode"},
+		{url:"https://webpaw.net/",text:"Web Paw"},
+		{url:"http://emscripten.org/",text:"Emscripten"}
+	]
+    },
 
 
 { text: 'Dev',isexpand:false, children: [ 
 		{url:"ckeditor-4-cdn.html",text:"Ckeditor"},
 		{url:"https://esironal.github.io/apps/code-sketch/",text:"Code Sketch"},
 		{url:"https://graphql.github.io/swapi-graphql/",text:"GraphiQL"},
-		{url:"https://esironal.github.io/npmgraph/",text:"NPM Graph"},
-		{url:"https://astexplorer.net",text:"Ast Explorer"},
-		{url:"https://esironal.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html",text:"JS flowchart"},
-		{url:"https://esironal.github.io/apps/codemagic/",text:"CodeMagic"},
-		{url:"http://jsonviewer.stack.hu",text:"Json Viewer"},
-		{url:"https://webassembly.studio/",text:"Webassembly"},
-		{url:"https://multifiddle.ml",text:"Multi-Fiddle"},
+    {url:"https://multifiddle.ml",text:"Multi-Fiddle"},
 		{url:"https://codepen.io/esironal/pens/public/",text:"Codepen"},
 		{url:"https://liveweave.com/user/dashboard.php?page=1&type=list",text:"Liveweave Dashboard"},
 		{url:"https://stackblitz.com",text:"stackblitz"},
@@ -104,13 +112,7 @@ var indexdata =
 
 
 
-	{ text: 'IDEs', isexpand: false, children: [
-		{url:"https://exlcode.com/ide",text:"Exlcode IDE"},
-		{url:"https://playcode.io/online-html-editor",text:"PlayCode"},
-		{url:"https://webpaw.net/",text:"Web Paw"},
-		{url:"http://emscripten.org/",text:"Emscripten"}
-	]
-    }, 
+	 
 
 
 	//  {url:"http://emscripten.org/",text:"Emscripten"},
