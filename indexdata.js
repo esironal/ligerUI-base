@@ -48,6 +48,14 @@ var indexdata =
 //  {url:"http://emscripten.org/",text:"Emscripten"},
 //  {url:"http://emscripten.org/",text:"Emscripten"},
 
+    
+    { text: 'IDEs', isexpand: false, children: [
+		{url:"https://exlcode.com/ide",text:"Exlcode IDE"},
+		{url:"https://playcode.io/online-html-editor",text:"PlayCode"},
+		{url:"https://webpaw.net/",text:"Web Paw"},
+		{url:"http://emscripten.org/",text:"Emscripten"}
+	]
+    },
 
 { text: 'Tools', isexpand: true, children: [
 		{url:"https://esironal.github.io/apps/codemagic/",text:"CodeMagic"},
@@ -78,13 +86,7 @@ var indexdata =
 
     
     
-    { text: 'IDEs', isexpand: false, children: [
-		{url:"https://exlcode.com/ide",text:"Exlcode IDE"},
-		{url:"https://playcode.io/online-html-editor",text:"PlayCode"},
-		{url:"https://webpaw.net/",text:"Web Paw"},
-		{url:"http://emscripten.org/",text:"Emscripten"}
-	]
-    },
+    
 
 
 { text: 'Dev',isexpand:false, children: [ 
