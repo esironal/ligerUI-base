@@ -11,7 +11,9 @@ var indexdata =
     
     { text: 'Save', isexpand: true, children: [
 		{ url: "https://web.gistoapp.com/#/", text: "Gisto" },
+        {url:"https://glot.io/users/esironal/snippets", text: "Snippets"},
 		{ url:"https://esironal.github.io/GitHub_Code_Editor",text:"GitHub Code Editor"},
+        {url:"https://exlcode.com/ide",text:"Exlcode IDE"},
 		{ url: "https://app.raindrop.io/?#/collection/0", text: "Raindrop" },
 		{ url: "http://esironal.github.io/apps/simple/", text: "Simplenote" },
 		{ url: "https://leanote.com/note", text: "Leanote" } 
@@ -19,7 +21,6 @@ var indexdata =
     },    
     
 { text: 'Notes', isexpand: false, children: [
-		{url:"https://glot.io/users/esironal/snippets", text: "Snippets"},
 		{url:"https://codeshare.io/2BQYbd",text:"Local Notes"},
 		{url:"https://codeshare.io/5zqZJE",text:"Notes-codeshare"},
 		{url:"https://etherpad.wikimedia.org/p/esironal-notes",text:"esironal-notes"},
@@ -50,7 +51,6 @@ var indexdata =
 
     
     { text: 'IDEs', isexpand: false, children: [
-		{url:"https://exlcode.com/ide",text:"Exlcode IDE"},
 		{url:"https://playcode.io/online-html-editor",text:"PlayCode"},
 		{url:"https://webpaw.net/",text:"Web Paw"},
 		{url:"http://emscripten.org/",text:"Emscripten"}
