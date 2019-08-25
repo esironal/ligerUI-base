@@ -20,7 +20,7 @@ var indexdata =
 	]
     },    
     
-{ text: 'Notes', isexpand: false, children: [
+{ text: 'Notes', isexpand: true, children: [
 		{url:"http://ignitersworld.com/lab/jsonQ.html",text:"jsonQ"},
     {url:"https://codeshare.io/2BQYbd",text:"Local Notes"},
 		{url:"https://codeshare.io/5zqZJE",text:"Notes-codeshare"},
@@ -31,13 +31,10 @@ var indexdata =
     
 
     { text: 'Local', isexpand: true, children: [
-		{url:"http://0.0.0.0:9898",text:"Console"},
-		{url:"http://0.0.0.0:1880",text:"Node-RED"},
-		{url:"http://0.0.0.0:3636/#/home/esironal/bin/kode",text:"Theia"},
-		{url:"http://0.0.0.0:1977",text:"nfshare"},
-		{url:"http://0.0.0.0:6460/index.php?editor/edit#filename=/mnt/Lan-Dev/Gitload/ligerUI-base/indexdata.js",text:"Edit Links"},
-		{url:"http://0.0.0.0:6460/index.php?editor/edit#filename=/mnt/Lan-Dev/Gitload/ligerUI-base/index.html",text:"Edit Index.htm"},
-		{url:"http://0.0.0.0:6460/index.php?explorer&type=iframe&path=/mnt/Lan-Dev/Gitload/ligerUI-base/",text:"Explorer"}
+		{url:"http://23.125.1.202:9898",text:"Console"},
+		{url:"http://23.125.1.202:1880",text:"Node-RED"},
+		{url:"http://23.125.1.202:1977",text:"nfshare"},
+		{url:"http://23.125.1.202/kode/index.php?explorer&type=iframe&path=/home/esironal/bin/kode/",text:"Explorer"}
 	]
     },
     
@@ -50,6 +47,16 @@ var indexdata =
 //  {url:"http://emscripten.org/",text:"Emscripten"},
 //  {url:"http://emscripten.org/",text:"Emscripten"},
 
+
+  
+   	{ text: 'Desks', isexpand: true, children: [
+		{url:"https://esironal.github.io/win10-ui/", text: "Win10 UI"},
+		{url:"https://esironal.github.io/ylui-desk/",text:"ylui-desk"},
+		{url:"https://esironal.github.io/china-desk/",text:"china-desk"}
+	]
+    }, 
+    
+    
     
     { text: 'IDEs', isexpand: false, children: [
 		{url:"https://playcode.io/online-html-editor",text:"PlayCode"},
@@ -127,12 +134,7 @@ var indexdata =
 //  {url:"http://emscripten.org/",text:"Emscripten"},
 
 
-	{ text: 'Desks', isexpand: false, children: [
-		{url:"https://esironal.github.io/win10-ui/", text: "Win10 UI"},
-		{url:"https://esironal.github.io/ylui-desk/",text:"ylui-desk"},
-		{url:"https://esironal.github.io/china-desk/",text:"china-desk"}
-	]
-    }, 
+
 
 	{ text: 'Libs',isexpand:false, children: [ 
 		{url:"https://codetogo.io/all",text:"codetogo.io"},
